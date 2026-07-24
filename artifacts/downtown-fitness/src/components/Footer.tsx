@@ -1,4 +1,5 @@
 import { Instagram, Facebook, Youtube } from 'lucide-react';
+import { Link } from 'wouter';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -28,10 +29,10 @@ export default function Footer() {
               <a href="https://www.instagram.com/downtownfitnesspk/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.facebook.com/p/Downtown-Fitness-61564277891909/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.youtube.com/@downtownfitness" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="YouTube">
                 <Youtube size={20} />
               </a>
             </div>
@@ -67,12 +68,16 @@ export default function Footer() {
             <h4 className="text-white font-bebas text-xl tracking-wider mb-6 uppercase">Hours</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex justify-between">
-                <span>Mon - Sat</span>
-                <span className="text-white">6:00 AM - 11:00 PM</span>
+                <span>Mon - Thu</span>
+                <span className="text-white">6 AM - 12 AM</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Fri - Sat</span>
+                <span className="text-white">6 AM - 12 AM</span>
               </li>
               <li className="flex justify-between">
                 <span>Sunday</span>
-                <span className="text-white">8:00 AM - 8:00 PM</span>
+                <span className="text-white/50">Closed</span>
               </li>
             </ul>
           </div>
@@ -84,8 +89,8 @@ export default function Footer() {
             © {currentYear} Downtown Fitness. All Rights Reserved.
           </p>
           <div className="flex gap-4 text-xs text-muted-foreground">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms-of-service" className="hover:text-white transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>

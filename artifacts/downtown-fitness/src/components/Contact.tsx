@@ -102,7 +102,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold mb-1">Hours</h4>
-                  <p className="text-muted-foreground">Mon–Sat: 6:00 AM – 11:00 PM<br />Sunday: 8:00 AM – 8:00 PM</p>
+                  <p className="text-muted-foreground">Mon–Thu: 6 AM – 12 AM<br />Fri–Sat: 6 AM – 12 AM<br />Sunday: Closed</p>
                 </div>
               </div>
             </div>
@@ -119,10 +119,10 @@ export default function Contact() {
                 >
                   <Instagram size={20} />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary transition-colors hover:border-primary" aria-label="Facebook">
+                <a href="https://www.facebook.com/p/Downtown-Fitness-61564277891909/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary transition-colors hover:border-primary" aria-label="Facebook">
                   <Facebook size={20} />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary transition-colors hover:border-primary" aria-label="YouTube">
+                <a href="https://www.youtube.com/@downtownfitness" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary transition-colors hover:border-primary" aria-label="YouTube">
                   <Youtube size={20} />
                 </a>
               </div>
@@ -230,7 +230,7 @@ export default function Contact() {
         >
           <iframe
             title="Downtown Fitness Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.0!2d74.26!3d31.48!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDI4JzQ4LjAiTiA3NMKwMTUnMzYuMCJF!5e0!3m2!1sen!2spk!4v1000000000000!5m2!1sen!2spk&q=10+CC+Block+A+Fazaia+Housing+Society+Lahore"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403!2d74.2381177!3d31.3685411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919ab00154c2ef9%3A0x94d42d73c638b2b7!2sDowntown%20Fitness!5e0!3m2!1sen!2s!4v1"
             width="100%"
             height="100%"
             style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg)' }}

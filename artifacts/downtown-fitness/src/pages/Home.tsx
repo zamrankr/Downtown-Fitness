@@ -21,12 +21,23 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Custom loading animation 1.5 seconds
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 600);
     return () => clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    if (!loading) {
+      const hash = window.location.hash;
+      if (hash) {
+        setTimeout(() => {
+          const el = document.querySelector(hash);
+          el?.scrollIntoView({ behavior: 'smooth' });
+        }, 200);
+      }
+    }
+  }, [loading]);
 
   return (
     <>

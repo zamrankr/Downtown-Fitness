@@ -20,7 +20,7 @@ const trainers = [
     role: 'Lead Trainer',
     exp: 'Certified Expert',
     specialty: 'Fat Loss & Nutrition',
-    img: 'https://images.unsplash.com/photo-1609899517235-cbfbea2bf01e?q=80&w=2070&auto=format&fit=crop'
+    img: 'https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=2070&auto=format&fit=crop'
   },
   {
     name: 'Expert Coach',

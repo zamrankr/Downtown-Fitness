@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import { useLocation } from 'wouter';
 
 const navLinks = [
   { name: 'Home', href: '#home' },
@@ -15,6 +16,7 @@ const navLinks = [
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [, setLocation] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,10 +28,22 @@ export default function Navbar() {
 
   const scrollToSection = (href: string) => {
     setMobileMenuOpen(false);
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    const isHome = window.location.pathname === '/' || window.location.pathname === '';
+    if (!isHome) {
+      setLocation('/');
+      setTimeout(() => {
+        const element = document.querySelector(href);
+        element?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+      return;
     }
+    const element = document.querySelector(href);
+    element?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const goHome = () => {
+    setMobileMenuOpen(false);
+    setLocation('/');
   };
 
   return (
@@ -40,7 +54,7 @@ export default function Navbar() {
         }`}
       >
         <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-          <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection('#home')}>
+          <div className="flex items-center gap-2 cursor-pointer" onClick={goHome}>
             <span className="text-3xl font-bebas text-primary">DF</span>
             <span className="text-xl font-bebas tracking-widest hidden sm:block">DOWNTOWN FITNESS</span>
           </div>

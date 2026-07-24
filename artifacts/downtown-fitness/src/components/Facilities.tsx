@@ -4,7 +4,7 @@ const facilities = [
   { name: 'Weight Area', img: 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop' },
   { name: 'Cardio Machines', img: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop' },
   { name: 'Functional Training', img: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2069&auto=format&fit=crop' },
-  { name: 'Free Weights', img: 'https://images.unsplash.com/photo-1584466977710-1699f7d0a2f6?q=80&w=2070&auto=format&fit=crop' },
+  { name: 'Free Weights', img: 'https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=2070&auto=format&fit=crop' },
   { name: 'Locker Rooms', img: 'https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=2071&auto=format&fit=crop' },
   { name: 'Personal Training', img: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop' },
 ];

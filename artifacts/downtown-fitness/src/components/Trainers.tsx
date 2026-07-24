@@ -2,31 +2,31 @@ import { motion } from 'framer-motion';
 
 const trainers = [
   {
-    name: 'Fat Loss',
-    role: 'Specialist Coach',
+    name: 'Wajid Shah',
+    role: 'Personal Trainer',
     exp: 'Certified Expert',
-    specialty: 'Body Recomposition',
+    specialty: 'Strength & Fat Loss',
     img: 'https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=1974&auto=format&fit=crop'
   },
   {
-    name: 'Muscle Gain',
-    role: 'Strength Coach',
+    name: 'Essa Khan',
+    role: 'Head Trainer',
     exp: 'Certified Expert',
-    specialty: 'Hypertrophy & Power',
+    specialty: 'Muscle Gain & Conditioning',
     img: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=2070&auto=format&fit=crop'
   },
   {
-    name: 'Nutrition',
+    name: 'Expert Coach',
     role: 'Nutrition Coach',
     exp: 'Certified Expert',
-    specialty: 'Meal Planning & Diet',
+    specialty: 'Nutrition & Diet Planning',
     img: 'https://images.unsplash.com/photo-1609899517235-cbfbea2bf01e?q=80&w=2070&auto=format&fit=crop'
   },
   {
-    name: 'Performance',
-    role: 'Functional Coach',
+    name: 'Expert Coach',
+    role: 'Cardio Specialist',
     exp: 'Certified Expert',
-    specialty: 'Cardio & Conditioning',
+    specialty: 'Cardio & Functional Training',
     img: 'https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=2069&auto=format&fit=crop'
   }
 ];

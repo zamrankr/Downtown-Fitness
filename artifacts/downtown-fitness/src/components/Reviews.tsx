@@ -5,25 +5,75 @@ import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
 const reviews = [
   {
-    name: 'Ahmed K.',
-    text: 'Absolutely the best gym in Lahore. The trainers are world-class and the equipment is always well-maintained. A true premium experience.',
+    name: 'Ahsan Ihsan',
+    badge: 'Google Review',
+    time: '1 year ago',
+    text: 'Not even one of the best — it\'s THE best gym in town at the moment. Best ventilation. Best equipment and they really really care about the cleanliness and keep the place tidied up!',
     rating: 5,
   },
   {
-    name: 'Fatima R.',
-    text: 'Very clean, modern equipment and a motivating environment. I feel safe and empowered every time I step through the doors.',
+    name: 'Baber Kamal',
+    badge: 'Local Guide',
+    time: '2 weeks ago',
+    text: 'Best fitness experience at Downtown Fitness Fazaia. Management team is very friendly and trainers are very professional. I\'ve been training for six months under Mr. Wajid — a genuinely expert and hardworking trainer. Really good experience.',
     rating: 5,
   },
   {
-    name: 'Hassan M.',
-    text: 'Transformed my lifestyle completely. Highly recommended! The personal training sessions are intense but perfectly tailored to my goals.',
+    name: 'Sheikh Mubasher',
+    badge: 'Google Review',
+    time: '3 weeks ago',
+    text: 'Great atmosphere! The gym has a very positive vibe, and the management is excellent. A special shout-out to Essa Khan — he\'s an outstanding trainer who really knows his stuff and manages everything perfectly. Highly recommended!',
     rating: 5,
   },
   {
-    name: 'Ayesha B.',
-    text: 'Professional staff, premium facilities at an affordable price. The cardio zone is massive and I never have to wait for a machine.',
+    name: 'Asaad Rauf',
+    badge: 'Google Review',
+    time: '1 year ago',
+    text: 'One of the cleanest gyms I have ever been to. All machines actually work, plus no limit on treadmills.',
     rating: 5,
-  }
+  },
+  {
+    name: 'Huba Mansoor',
+    badge: 'Google Review',
+    time: '3 weeks ago',
+    text: 'I have been training at this gym for 2 years and the experience is amazing. My trainer Wajid Shah is a great teacher — he provides full support and motivation during every session.',
+    rating: 5,
+  },
+  {
+    name: 'Wasiq Sajjad',
+    badge: 'Local Guide',
+    time: '1 year ago',
+    text: 'Gym environment is great! Machines are exactly how they should be — superb quality. Worth every rupee of the membership.',
+    rating: 5,
+  },
+  {
+    name: 'Amir Amin',
+    badge: 'Google Review',
+    time: '3 weeks ago',
+    text: 'Excellent environment. I can\'t say enough great things about Wajid Shah as my personal trainer. He went above and beyond from day one, caring not just about my workout but my overall well-being.',
+    rating: 5,
+  },
+  {
+    name: 'Abdul Rehman Tariq',
+    badge: 'Google Review',
+    time: '1 year ago',
+    text: 'Recently joined this gym — the environment is very friendly and the facilities are very supportive. Great place to train.',
+    rating: 5,
+  },
+  {
+    name: 'Zohaib Rehman',
+    badge: 'Google Review',
+    time: '3 weeks ago',
+    text: 'Downtown Fitness is a clean, great environment gym. Coach Wajid Shah is a wonderful person with a great personality. I am very satisfied with all kinds of service.',
+    rating: 5,
+  },
+  {
+    name: 'CH Ali',
+    badge: 'Google Review',
+    time: '1 year ago',
+    text: 'Very cool, spacious and aesthetic gym. Joined one month ago and loved it.',
+    rating: 5,
+  },
 ];
 
 export default function Reviews() {
@@ -132,12 +182,16 @@ export default function Reviews() {
                   </p>
                   
                   <div className="flex items-center gap-4 relative z-10">
-                    <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bebas text-xl">
+                    <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bebas text-xl flex-shrink-0">
                       {review.name.charAt(0)}
                     </div>
-                    <div>
-                      <h4 className="font-bold text-white">{review.name}</h4>
-                      <p className="text-xs text-muted-foreground uppercase tracking-widest">Member</p>
+                    <div className="min-w-0">
+                      <h4 className="font-bold text-white leading-tight">{review.name}</h4>
+                      <div className="flex items-center gap-2 mt-1 flex-wrap">
+                        <span className="text-xs text-primary uppercase tracking-widest font-semibold">{review.badge}</span>
+                        <span className="text-white/20 text-xs">·</span>
+                        <span className="text-xs text-muted-foreground">{review.time}</span>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -1,5 +1,4 @@
 {
-  "rootDirectory": "artifacts/downtown-fitness",
   "framework": "vite",
   "buildCommand": "pnpm run build",
   "outputDirectory": "dist",
@@ -11,4 +10,3 @@
     }
   ]
 }
-

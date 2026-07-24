@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Downtown Fitness"
+version = "1.0.0"
+id = "artifacts/downtown-fitness"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21497
+
+[services.development]
+run = "pnpm --filter @workspace/downtown-fitness run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/downtown-fitness", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/downtown-fitness/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21497"
+BASE_PATH = "/"

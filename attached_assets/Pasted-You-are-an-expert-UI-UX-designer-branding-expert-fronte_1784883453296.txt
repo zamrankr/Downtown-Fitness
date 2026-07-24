@@ -1,0 +1,417 @@
+You are an expert UI/UX designer, branding expert, frontend developer, and SEO specialist.
+
+Design and build a complete, production-quality responsive website for a premium gym business.
+
+The website should look as premium as websites from top international gyms like Equinox, Gold's Gym, Anytime Fitness, and Gymshark. The design should feel modern, luxurious, energetic, and trustworthy.
+
+Business Information
+
+Business Name: Downtown Fitness
+
+Business Category: Gym / Fitness Center
+
+Phone Number: 0322-0101444
+
+Address: 10 CC, Block A, Fazaia Housing Society, Lahore, Pakistan
+
+Google Reviews: ⭐ 4.9/5 (36 Reviews)
+
+Overall Design Style
+
+Create an ultra-modern premium fitness website.
+
+The website should immediately make visitors feel:
+
+Professional
+Powerful
+Motivated
+Luxurious
+High-energy
+Clean
+Premium
+
+Avoid generic templates.
+
+The website should look custom-designed.
+
+Color Palette
+
+Use a premium dark theme.
+
+Primary Background:
+
+#0B0B0B
+
+Secondary Background:
+
+#151515
+
+Accent Color:
+
+Electric Orange (#FF6B00)
+
+Secondary Accent:
+
+Bright Red (#FF3D3D)
+
+Text:
+
+White
+Light Gray
+
+Buttons:
+
+Orange gradient
+Hover glow
+Soft shadows
+
+Cards:
+
+Glassmorphism
+Slight transparency
+Smooth borders
+Typography
+
+Use premium Google Fonts.
+
+Headings:
+
+Bebas Neue
+or
+Oswald
+
+Body Text:
+
+Inter
+or
+Poppins
+
+Large bold headings.
+
+Strong typography.
+
+Excellent spacing.
+
+Effects & Animations
+
+Use tasteful modern animations.
+
+Include:
+
+Smooth scrolling
+Fade-in animations
+Slide-up animations
+Hover effects
+Animated counters
+Button hover glow
+Card hover lift
+Image zoom on hover
+Mouse parallax in hero
+Gradient overlays
+Animated background blobs
+Loading transitions
+Smooth page reveal
+
+Animations should use Framer Motion or GSAP if appropriate.
+
+Do NOT overdo animations.
+
+Everything should feel smooth and premium.
+
+Website Sections
+1. Hero Section
+
+Large full-screen hero.
+
+Dark overlay on gym background.
+
+Large heading:
+
+"Train Hard. Transform Your Life."
+
+Subheading:
+
+"Join Downtown Fitness and become the strongest version of yourself."
+
+Buttons:
+
+Join Now
+Contact Us
+
+Display:
+
+⭐ 4.9 Rating
+
+36 Reviews
+
+Add subtle animated floating shapes.
+
+2. Why Choose Us
+
+Premium cards with icons.
+
+Include:
+
+Professional Trainers
+Modern Equipment
+Affordable Memberships
+Spacious Environment
+Cardio Zone
+Strength Training
+Functional Training
+Friendly Community
+
+Cards should animate on hover.
+
+3. Membership Plans
+
+Create beautiful pricing cards.
+
+Starter
+
+Standard
+
+Premium
+
+Use placeholder pricing.
+
+Highlight the middle plan.
+
+Animated hover.
+
+4. Facilities
+
+Beautiful grid.
+
+Large images.
+
+Include:
+
+Weight Area
+Cardio Machines
+Functional Training
+Free Weights
+Locker Rooms
+Personal Training
+
+Hover effects.
+
+5. Our Trainers
+
+Professional trainer cards.
+
+Include placeholders.
+
+Each card:
+
+Photo
+
+Name
+
+Specialization
+
+Experience
+
+Hover animation.
+
+6. Customer Reviews
+
+Beautiful testimonial slider.
+
+Display:
+
+⭐⭐⭐⭐⭐
+
+"Excellent gym with amazing trainers."
+
+"Best gym in the area."
+
+"Very clean and professional."
+
+Mention:
+
+4.9 Rating
+
+36 Google Reviews
+
+7. Gallery
+
+Masonry image gallery.
+
+Hover zoom.
+
+Lightbox.
+
+Use high-quality fitness placeholder images.
+
+8. BMI Calculator
+
+Interactive BMI Calculator.
+
+Inputs:
+
+Height
+
+Weight
+
+Calculate button.
+
+Display BMI category.
+
+Nice UI.
+
+9. FAQ
+
+Accordion.
+
+Questions like:
+
+Do you offer personal training?
+
+What are your timings?
+
+Do you have monthly memberships?
+
+Can beginners join?
+
+10. Contact Section
+
+Display:
+
+Downtown Fitness
+
+📍 10 CC, Block A, Fazaia Housing Society, Lahore, Pakistan
+
+📞 0322-0101444
+
+Embed Google Map placeholder.
+
+Contact form.
+
+11. Footer
+
+Include:
+
+Logo
+
+Quick Links
+
+Contact Information
+
+Social Icons
+
+Business Hours
+
+Copyright
+
+Navigation
+
+Sticky navigation.
+
+Transparent initially.
+
+Blur background while scrolling.
+
+Smooth active section indicator.
+
+Mobile hamburger menu.
+
+Performance
+
+Website should load fast.
+
+Lazy-load images.
+
+Responsive everywhere.
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+SEO
+
+Include:
+
+Proper meta title
+
+Meta description
+
+Open Graph tags
+
+Semantic HTML
+
+Accessibility
+
+Structured headings
+
+Alt text
+
+Schema markup for Local Business
+
+Accessibility
+
+Proper contrast
+
+Keyboard navigation
+
+ARIA labels
+
+Accessible buttons
+
+Images
+
+Use premium royalty-free fitness placeholder images from Unsplash or Pexels.
+
+Use full-width banners.
+
+Use realistic gym photography.
+
+Buttons
+
+Rounded corners.
+
+Orange gradient.
+
+Hover glow.
+
+Scale animation.
+
+Ripple effect.
+
+Extra Premium Features
+
+Include:
+
+Scroll progress indicator
+Back-to-top button
+Animated statistics section
+Glassmorphism UI
+Floating CTA button ("Join Now")
+Custom loading animation
+Scroll-triggered animations
+Smooth section transitions
+Modern icon library (Lucide or Font Awesome)
+Beautiful gradients
+Premium spacing and layout
+Micro-interactions throughout the UI
+Technology
+
+Build using:
+
+React
+TypeScript
+Tailwind CSS
+Framer Motion
+Lucide React Icons
+
+Use clean component architecture.
+
+Organize components into reusable files.
+
+Use responsive design best practices.
+
+The final website should feel like a premium gym website worth thousands of dollars, with polished UI/UX, smooth animations, excellent typography, and a strong focus on converting visitors into members. It should be ready for deployment with only minor content or image replacements needed.

@@ -91,7 +91,7 @@ export default function Hero() {
             transition={{ delay: 2.0, duration: 0.8 }}
             className="mt-8 text-lg md:text-xl text-muted-foreground max-w-xl font-light"
           >
-            Join Downtown Fitness and become the strongest version of yourself. Premium equipment, expert coaches, zero excuses.
+            Fat loss. Muscle gain. Real results. Backed by expert coaching, personalised nutrition, and a community that keeps you going.
           </motion.p>
 
           <motion.div 

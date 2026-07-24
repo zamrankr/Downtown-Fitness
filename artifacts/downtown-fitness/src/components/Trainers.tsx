@@ -2,31 +2,31 @@ import { motion } from 'framer-motion';
 
 const trainers = [
   {
-    name: 'Ali Hassan',
-    role: 'Head Coach',
-    exp: '8 Years Exp',
-    specialty: 'Strength & Conditioning',
+    name: 'Fat Loss',
+    role: 'Specialist Coach',
+    exp: 'Certified Expert',
+    specialty: 'Body Recomposition',
     img: 'https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=1974&auto=format&fit=crop'
   },
   {
-    name: 'Sara Khan',
-    role: 'Cardio Specialist',
-    exp: '5 Years Exp',
-    specialty: 'HIIT & Functional',
-    img: 'https://images.unsplash.com/photo-1609899517235-cbfbea2bf01e?q=80&w=2070&auto=format&fit=crop'
-  },
-  {
-    name: 'Usman Malik',
-    role: 'Personal Trainer',
-    exp: '6 Years Exp',
-    specialty: 'Bodybuilding',
+    name: 'Muscle Gain',
+    role: 'Strength Coach',
+    exp: 'Certified Expert',
+    specialty: 'Hypertrophy & Power',
     img: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=2070&auto=format&fit=crop'
   },
   {
-    name: 'Zara Ahmed',
-    role: 'Nutrition & Fitness',
-    exp: '4 Years Exp',
-    specialty: 'Weight Loss',
+    name: 'Nutrition',
+    role: 'Nutrition Coach',
+    exp: 'Certified Expert',
+    specialty: 'Meal Planning & Diet',
+    img: 'https://images.unsplash.com/photo-1609899517235-cbfbea2bf01e?q=80&w=2070&auto=format&fit=crop'
+  },
+  {
+    name: 'Performance',
+    role: 'Functional Coach',
+    exp: 'Certified Expert',
+    specialty: 'Cardio & Conditioning',
     img: 'https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=2069&auto=format&fit=crop'
   }
 ];
@@ -45,7 +45,7 @@ export default function Trainers() {
             viewport={{ once: true }}
             className="text-5xl md:text-7xl font-bebas uppercase tracking-wider mb-4"
           >
-            Meet Our <span className="text-primary">Experts</span>
+            Our <span className="text-primary">Coaching</span> Focus
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -54,7 +54,7 @@ export default function Trainers() {
             transition={{ delay: 0.2 }}
             className="text-muted-foreground text-lg"
           >
-            Learn from the best. Our certified trainers are here to push your limits and guide you to your goals.
+            Fat loss. Muscle gain. Nutrition. Performance. Our certified coaches cover every angle so you hit real results, fast.
           </motion.p>
         </div>
 

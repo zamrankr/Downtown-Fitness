@@ -22,10 +22,10 @@ export default function Footer() {
               <span className="text-2xl font-bebas tracking-widest">DOWNTOWN<br/>FITNESS</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-              Lahore's premium fitness destination. We provide the environment, equipment, and expertise you need to transform your life.
+              Fat loss. Muscle gain. Real results. Nutrition, coaching, and support — all under one roof in Fazaia, Lahore.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.instagram.com/downtownfitnesspk/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">

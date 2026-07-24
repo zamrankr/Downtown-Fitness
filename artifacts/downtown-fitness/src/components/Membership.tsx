@@ -21,7 +21,7 @@ const plans = [
     name: 'Premium',
     price: '10,000',
     period: '/mo',
-    features: ['Unlimited 24/7 access', 'All zones & classes', 'Weekly PT sessions', 'Custom nutrition plan', 'VIP locker & Laundry'],
+    features: ['Unlimited 24/7 access', 'All zones & classes', 'Weekly PT sessions', 'Custom nutrition plan & coaching', 'VIP locker & Laundry'],
     highlighted: false,
   }
 ];

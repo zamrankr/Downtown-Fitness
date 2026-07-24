@@ -2,14 +2,14 @@ import { motion } from 'framer-motion';
 import { UserCheck, Dumbbell, Tag, Maximize2, Heart, Zap, Activity, Users } from 'lucide-react';
 
 const features = [
-  { icon: UserCheck, title: 'Professional Trainers', desc: 'Certified experts dedicated to your goals.' },
-  { icon: Dumbbell, title: 'Modern Equipment', desc: 'Top-tier machines for every muscle group.' },
+  { icon: UserCheck, title: 'Expert Coaching', desc: 'Certified coaches dedicated to fat loss, muscle gain, and real results.' },
+  { icon: Dumbbell, title: 'Modern Equipment', desc: 'Top-tier machines and free weights for every muscle group.' },
   { icon: Tag, title: 'Affordable Memberships', desc: 'Premium fitness without the premium price tag.' },
-  { icon: Maximize2, title: 'Spacious Environment', desc: 'Never wait for a machine in our massive facility.' },
-  { icon: Heart, title: 'Cardio Zone', desc: 'State-of-the-art treadmills, bikes, and rowers.' },
-  { icon: Zap, title: 'Strength Training', desc: 'Extensive free weights and resistance machines.' },
-  { icon: Activity, title: 'Functional Training', desc: 'Turf area with sleds, tires, and kettlebells.' },
-  { icon: Users, title: 'Friendly Community', desc: 'Train alongside motivated individuals.' },
+  { icon: Maximize2, title: 'Spacious Environment', desc: 'Never wait for a machine in our massive, well-equipped facility.' },
+  { icon: Heart, title: 'Cardio Zone', desc: 'State-of-the-art treadmills, bikes, and cardio equipment.' },
+  { icon: Zap, title: 'Strength Training', desc: 'Extensive free weights, barbells, and resistance machines.' },
+  { icon: Activity, title: 'Nutrition Coaching', desc: 'Personalised nutrition plans to fuel fat loss and muscle gain.' },
+  { icon: Users, title: 'Supportive Community', desc: 'Train alongside motivated people with real coaches backing you.' },
 ];
 
 const containerVariants = {

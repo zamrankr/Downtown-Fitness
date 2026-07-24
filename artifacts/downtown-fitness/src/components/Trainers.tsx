@@ -16,10 +16,10 @@ const trainers = [
     img: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=2070&auto=format&fit=crop'
   },
   {
-    name: 'Expert Coach',
-    role: 'Nutrition Coach',
+    name: 'Maria Sultana',
+    role: 'Lead Trainer',
     exp: 'Certified Expert',
-    specialty: 'Nutrition & Diet Planning',
+    specialty: 'Fat Loss & Nutrition',
     img: 'https://images.unsplash.com/photo-1609899517235-cbfbea2bf01e?q=80&w=2070&auto=format&fit=crop'
   },
   {
